@@ -1,0 +1,52 @@
+package interview;
+
+public class LengthOfLongestSubString {
+	
+	public static int lengthOfLongestSubString(String str)
+	{
+		int result = 0;
+		boolean [] flag = new boolean [256];
+		int start = 0;
+		for(int i = 0 ; i < str.length() ; i++)
+		{
+			char current = str.charAt(i);
+			
+			if(flag[current])
+			{
+				result = Math.max(result,i-start);
+				
+				for(int k = start ; k < i ; k++)
+				{
+					// until the matching char occurs make the chars that are before that matching char to flase
+					// bcoz how ever the length will be less thn it is being computed.
+					if(str.charAt(k) == current)
+					{
+						// compute the start
+						start = k +1;
+						break;
+					}
+					else {
+						// make the char before to false
+						flag[str.charAt(k)] = false;
+					}
+					
+				}
+				
+			}
+			else
+			{
+				flag[current] = true;
+			}
+		}
+		
+		
+		return result;
+	}
+
+	public static void main(String[] args) {
+		
+		String s = "ACBBA EIBCXAPOQWRL"; //"softwar development in test developmentt";
+		System.out.println("The length longest sub String is : " + lengthOfLongestSubString(s));
+	}
+
+}

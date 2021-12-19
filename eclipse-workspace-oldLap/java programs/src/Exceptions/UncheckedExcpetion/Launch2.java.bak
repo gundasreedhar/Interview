@@ -1,0 +1,32 @@
+// Unchecked Exception
+// handling the unchecked Exception in the main
+class Demo
+{
+    public void div_op()
+    {
+		System.out.println("connection2 Established");
+        System.out.println(10/0);
+        System.out.println("connection2 Terminated"); // control will not come here upon Exception occurence 
+    }
+}
+public class Launch2
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("connection1 Established");
+	    Demo d = new Demo();
+	    try
+	    {
+	        d.div_op();
+	    }
+	    catch(Exception e) {}
+	   System.out.println("connection1 Terminated");
+	}
+}
+/* 
+OutPut:
+connection1 Established
+connection2 Established
+connection1 Terminated
+
+*/

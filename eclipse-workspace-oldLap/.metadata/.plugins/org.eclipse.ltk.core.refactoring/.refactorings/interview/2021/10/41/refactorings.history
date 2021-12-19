@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;interview.dfg.java&apos; to &apos;SortEachWordInAscendingOrder.java&apos;&#x0D;&#x0A;- Original project: &apos;interview&apos;&#x0D;&#x0A;- Original element: &apos;interview.dfg.java&apos;&#x0D;&#x0A;- Renamed element: &apos;interview.SortEachWordInAscendingOrder.java&apos;" description="Rename compilation unit &apos;dfg.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;interview{dfg.java" name="SortEachWordInAscendingOrder.java" references="false" stamp="1633490072384" version="1.0"/>
+</session>

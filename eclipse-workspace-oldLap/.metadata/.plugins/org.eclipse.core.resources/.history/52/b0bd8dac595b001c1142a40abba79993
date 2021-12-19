@@ -1,0 +1,18 @@
+package FilesPractice;
+
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class StudentDAO {
+	public static List<Student> getAllStdeuntRecords()
+	{
+		return Stream.of(
+					new Student("shredhar","A",40000),
+					new Student("srikanth","B",40000),
+					new Student("brunda","A",40000),
+					new Student("sravani","B",40000),
+					new Student("mahesh","A",40000)
+				).collect(Collectors.toList());
+	}
+}

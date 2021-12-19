@@ -1,0 +1,18 @@
+package interview;
+
+class Launchhh
+{
+	public static void main(String[] args )
+	{
+		String str = "shreedhar";
+		char [] arr = str.toCharArray();
+		int vowels = 0;
+		for(char ch : arr)
+		{
+			if(ch == 'a' || ch == 'e'|| ch == 'i'|| ch == 'o'|| ch == 'u')
+				vowels
+		}
+		
+	}
+}
+

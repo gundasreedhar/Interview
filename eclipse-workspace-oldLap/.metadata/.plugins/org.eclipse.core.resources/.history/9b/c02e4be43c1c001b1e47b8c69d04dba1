@@ -1,0 +1,189 @@
+package Practice1;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.HashSet;
+import java.util.List;
+import java.util.ListIterator;
+import java.util.Scanner;
+import java.util.TreeSet;
+import java.util.Iterator;
+import java.util.LinkedHashSet;
+
+class Student implements Comparable{
+	int id;
+	String name = "";
+	public Student(int id,String name)
+	{
+		this.id = id;
+		this.name = name;
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.id+"--"+this.name;
+	}
+	@Override
+	public int compareTo(Object arg0) {
+		// TODO Auto-generated method stub
+		String a1 = this.name;
+		String a2 = ((Student)arg0).name;
+		 
+		return a1.compareTo(a2);
+	}
+}
+
+/*class ContentCopy
+{
+	int percentage;
+	 public ContentCopy() {
+		// TODO Auto-generated constructor stub
+		percentage = 23;
+	}
+	public ContentCopy(ContentCopy c)
+	{
+		percentage = c.percentage;
+	}
+	
+}*/
+
+public class DemoMain {
+	
+	//main method overloading
+	static void main() {
+		System.out.println("overloaded main");
+	}
+	 
+
+	
+	public static void main(String[] srsg) {
+		/*
+		 * Scanner scanner = new Scanner(System.in); int num = scanner.nextInt();
+		 * System.out.println(MathOpertaion.findFact(num));
+		 */
+
+		/*
+		 * ExceptionPrograms ep = new ExceptionPrograms(); try { ep.divide(); } catch
+		 * (Exception e) { // TODO Auto-generated catch block //e.printStackTrace(); }
+		 */
+
+		/*
+		 * Code for copying the content(Not the reference) of one object to another
+		 * object using ContentCopy Class
+		 * 
+		 * ContentCopy c1 = new ContentCopy(); ContentCopy c2 ; c2 = new
+		 * ContentCopy(c1); System.out.println("C1 = " + c1.percentage + "\nC2 = " +
+		 * c2.percentage); c1.percentage = 20; System.out.println("C1 = " +
+		 * c1.percentage + "\nC2 = " + c2.percentage);
+		 */
+
+		/*
+		 * for copying the contents of one array to another array there is imbuilt
+		 * method clone()
+		 * 
+		 * clone() method available only for arrays but not for user defined class
+		 * objects
+		 */
+
+		/*
+		 * Inheritence question in InheritenceOne clsss
+		 * 
+		 * InheritenceOne inh = new InheritenceOne(); inh.disp();
+		 */
+
+		/*
+		 * Overloading the static methods and instance method including the main()
+		 * method
+		 * 
+		 * OverloadingTest.disp(); OverloadingTest.disp(1); DemoMain.main();
+		 */
+
+		/*
+		 * List one = new ArrayList(); one.add("shree"); one.add("shreedhar");
+		 * one.forEach( i -> {System.out.println(i); });
+		 */
+
+		/*
+		 * // primitives int [] arr1 = {1,2,3,4}; // when u know the elements in prior
+		 * int[] arr2 = new int[3]; // when u dont know the elements of the array. You
+		 * declare size // and insert in run time using index.
+		 * 
+		 * for(int i = 0 ; i< arr2.length ; i++) { arr2[i] = i+1; // runtime insertion }
+		 * for(int a : arr2) { System.out.println(a); // array iterate }
+		 * 
+		 * // Secondary or User Defined class objects in array
+		 * 
+		 * String names1[] = {"shree" , "sriky" , "sameer" }; // When u know the
+		 * elements prior
+		 * 
+		 * String names2[] = new String[3]; // when only size is know but not the
+		 * elements names2[0] = "aaa"; // runtime insertion names2[1] = "bbb"; names2[2]
+		 * = "ccc";
+		 * 
+		 * 
+		 * 
+		 * String [] name = new String[3];
+		 */
+
+		
+		 //TreeSet ts = new TreeSet(); // default naural sorting order for both wrapper classes and String objects
+		 
+		 /*Student s1 = new Student(101,"shreedhar");
+		 Student s2 = new Student(98,"srikanth");
+		 Student s3 = new Student(22,"Brunda");
+		 Student s4 = new Student(56,"Raghu");
+		 Student s5 = new Student(56,"alkfhakl");
+		 
+		 TreeSet ts1 = new TreeSet
+		 TreeSet ts = new TreeSet(new Comparator()
+				 {
+			 		@Override
+			 		public int compare(Object arg0, Object arg1) {
+			 			// TODO Auto-generated method stub
+			 			
+			 			String S1 = (String)arg0;
+			 			String S2 = (String)arg1;
+			 			//return -S1.compareToIgnoreCase(S2);
+			 			return 1;
+		 		}
+				 });
+		 
+		 ts.add(s1);
+		 ts.add(s2);
+		 ts.add(s3);
+		 ts.add(s4);
+		 ts.add(s5);
+		 
+		 System.out.println(ts);*/
+		
+		
+		
+		//HashSet<Emp> ts = new HashSet<Emp>();   // possible to store duplicates
+		//LinkedHashSet<Emp> s = new LinkedHashSet<Emp>(); // possible to store duplicates
+		TreeSet<Student> ts = new TreeSet<Student>();   // we cant store the duplicates in TreeSet 
+		/*{
+			public boolean equals( int o)
+			{
+				return false;
+			}
+		};*/
+		HashSet<Integer> hg = new HashSet<Integer>();   
+		hg.add(2);
+		hg.add(4);
+		hg.add(2);
+
+
+		Student s1 = new Student(40,"shree");
+		Student s2 = new Student(20,"amma");
+		Student s3 = new Student(42,"shree");
+		ts.add(s1);
+		ts.add(s2);
+		ts.add(s3);
+		
+
+		
+		System.out.println(ts);
+		//System.out.println("Wrapper class objects\n" + hg);
+
+	}
+}

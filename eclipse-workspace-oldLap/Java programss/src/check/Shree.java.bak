@@ -1,0 +1,8 @@
+class Shree 
+{
+	public static void main(String[] args) 
+	{
+		Sys
+			tem.out.println("Hello World!");
+	}
+}

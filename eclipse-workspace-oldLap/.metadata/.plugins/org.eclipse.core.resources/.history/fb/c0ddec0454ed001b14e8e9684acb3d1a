@@ -1,0 +1,67 @@
+package lockdown;
+
+class Governtment extends Object 
+{
+	Governtment()
+	{
+		System.out.println("parent class constructor");
+	}
+}
+class Registerform extends Governtment{
+	private String name;
+	private int phone;
+	
+	public void disp()
+	{
+		System.out.println("\nname :- " + name +":::::phone :- " + phone );
+	}
+	
+	public void spcl()
+	{
+		System.out.println("spcilisied method is called");
+	}
+	
+	
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getPhone() {
+		return phone;
+	}
+	public void setPhone(int phone) {
+		this.phone = phone;
+	}
+	
+	Registerform(String name,int phone)
+	{
+		this();
+		this.name = name;
+		this.phone = phone;
+	}
+	
+	Registerform()
+	{
+		System.out.println("child class constructor");
+	}
+	{
+		disp();
+	}
+	
+}
+
+
+class Important
+{
+	public static void main(String[] args )
+	{
+		// TODO Auto-generated method stub
+		Governtment p1 = new Registerform("shreedhar", 1234567890);
+		((Registerform)(p1)).disp();  // down casting 
+	}
+	
+	
+}

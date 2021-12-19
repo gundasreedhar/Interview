@@ -1,0 +1,9 @@
+
+public class CoreApp 
+{
+	public static void main()
+	{
+		char a = 31;
+		System.out.println(a);
+	}
+}

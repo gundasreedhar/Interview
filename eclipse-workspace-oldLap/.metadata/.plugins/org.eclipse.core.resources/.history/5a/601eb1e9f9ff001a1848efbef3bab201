@@ -1,0 +1,22 @@
+package Practice1;
+
+import java.util.Scanner;
+
+
+public class DemoMain {
+	public static void main(String[] srsg) {
+		/*Scanner scanner = new Scanner(System.in);
+		int num = scanner.nextInt();
+		System.out.println(MathOpertaion.findFact(num));*/
+		
+		ExceptionPrograms ep = new ExceptionPrograms();
+			try {
+				ep.divide();
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				//e.printStackTrace();
+			}
+		
+
+	}
+}

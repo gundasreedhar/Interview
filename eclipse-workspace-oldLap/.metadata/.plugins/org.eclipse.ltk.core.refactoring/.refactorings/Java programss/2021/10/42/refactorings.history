@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;innerclasses.Nested_Inner_Class.java&apos; to &apos;Nested_Inner_Classs.java&apos;&#x0D;&#x0A;- Original project: &apos;Java programss&apos;&#x0D;&#x0A;- Original element: &apos;innerclasses.Nested_Inner_Class.java&apos;&#x0D;&#x0A;- Renamed element: &apos;innerclasses.Nested_Inner_Classs.java&apos;" description="Rename compilation unit &apos;Nested_Inner_Class.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;innerclasses{Nested_Inner_Class.java" name="Nested_Inner_Classs.java" references="false" stamp="1634091313305" version="1.0"/>
+</session>

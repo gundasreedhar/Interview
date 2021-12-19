@@ -1,0 +1,11 @@
+package interview;
+
+class Launchhh
+{
+	public static void main(String[] args )
+	{
+		Parent p = new Childd();
+		
+	}
+}
+

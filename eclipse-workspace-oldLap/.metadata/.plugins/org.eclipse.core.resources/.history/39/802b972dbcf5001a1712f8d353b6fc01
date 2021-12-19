@@ -1,0 +1,13 @@
+import org.omg.Messaging.SyncScopeHelper;
+
+public class CoreApp {
+	public static void main(String[] args) {
+		char a = 97;
+		/*if (a == 'A')
+			System.out.println("true");
+		else
+			System.out.println("false");*/
+		a = ('a' - 32);
+		System.out.println(a);
+	}
+}

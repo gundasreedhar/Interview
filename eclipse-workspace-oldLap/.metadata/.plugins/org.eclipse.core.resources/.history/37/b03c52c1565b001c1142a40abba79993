@@ -1,0 +1,13 @@
+package FilesPractice;
+
+import java.util.List;
+
+public class Java8practice {
+	public static void main(String[] args) {
+		List<Student> listOfStudents = StudentDAO.getAllStdeuntRecords();
+		
+		listOfStudents.stream()
+		.filter(employee -> employee.getGrade().equalsIgnoreCase("A"))
+		.map(employee->employee.getSalary())
+	}
+}

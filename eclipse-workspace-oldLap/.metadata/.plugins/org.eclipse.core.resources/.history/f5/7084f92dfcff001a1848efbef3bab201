@@ -1,0 +1,55 @@
+package Practice1;
+
+import java.util.Scanner;
+
+/*class ContentCopy
+{
+	int percentage;
+	public ContentCopy() {
+		// TODO Auto-generated constructor stub
+		percentage = 23;
+	}
+	public ContentCopy(ContentCopy c)
+	{
+		percentage = c.percentage;
+	}
+	
+}*/
+public class DemoMain {
+	public static void main(String[] srsg) {
+		/*Scanner scanner = new Scanner(System.in);
+		int num = scanner.nextInt();
+		System.out.println(MathOpertaion.findFact(num));*/
+		
+		/*ExceptionPrograms ep = new ExceptionPrograms();
+			try {
+				ep.divide();
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				//e.printStackTrace();
+			}
+		*/
+		
+		
+		/*
+		 * Code for copying the content(Not the reference) of one object to another object using
+		 * ContentCopy Class
+		 * 
+		ContentCopy c1 = new ContentCopy();
+		ContentCopy c2 ;
+		c2 = new ContentCopy(c1);
+		System.out.println("C1 = " + c1.percentage + "\nC2 = " + c2.percentage);
+		c1.percentage = 20;
+		System.out.println("C1 = " + c1.percentage + "\nC2 = " + c2.percentage);
+		*/
+		
+		/*
+		 * for copying the contents of one array to another array there is imbuilt method clone()
+		 * 
+		 *  clone() method available only for arrays but not for custom objects  
+		 */
+		
+		
+
+	}
+}

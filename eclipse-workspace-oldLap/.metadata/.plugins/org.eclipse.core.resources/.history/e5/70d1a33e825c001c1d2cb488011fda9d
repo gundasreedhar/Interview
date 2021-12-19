@@ -1,0 +1,24 @@
+package interview;
+
+public class LengthOfLongestSubString {
+	
+	public static int lengthOfLongestSubString(String str)
+	{
+		int result = 0;
+		
+		
+		
+		
+		
+		
+		
+		return result;
+	}
+
+	public static void main(String[] args) {
+		
+		String s = "softwar development in test developmentt";
+		System.out.println("The length longest sub String is : " + lengthOfLongestSubString(s));
+	}
+
+}

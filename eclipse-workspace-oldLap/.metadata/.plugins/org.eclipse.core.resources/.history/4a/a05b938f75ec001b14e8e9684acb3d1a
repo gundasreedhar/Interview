@@ -1,0 +1,46 @@
+package lockdown;
+
+class Registerform{
+	private String name;
+	private int phone;
+	
+	public void disp()
+	{
+		System.out.println("name :- " + name +":::::" + phone);
+	}
+	
+	
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getPhone() {
+		return phone;
+	}
+	public void setPhone(int phone) {
+		this.phone = phone;
+	}
+	
+	Registerform(String name,int phone)
+	{
+		this.name = name;
+		this.phone = phone;
+	}
+	
+}
+
+
+class Important
+{
+	public static void main(String[] args )
+	{
+		// TODO Auto-generated method stub
+		Registerform p1 = new Registerform("shreedhar", 1234567890);
+		p1.disp();
+	}
+	
+	
+}

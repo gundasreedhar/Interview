@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	  <!-- <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+                  "http://www.springframework.org/dtd/spring-beans-2.0.dtd"> -->
+	  <!-- xmlns:util = "http://www.springframework.org/schema/util" -->
+
+<!-- <beans xmlns = "http://www.springframework.org/schema/beans"
+	  xmlns:context = "http://www.springframework.org/schema/context"
+      xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+      
+      xsi:schemaLocation = "http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+      http://www.springframework.org/schema/util 
+      http://www.springframework.org/schema/util/spring-util-4.0.xsd"> -->
+ <!-- 
+  Normal one:->    
+ <beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+      -->
+   <beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context = "http://www.springframework.org/schema/context"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context.xsd">   
+   
+   
+   
+   <!-- <context:annotation-config/> -->
+   
+   <bean id= "anno" class = "autowiring.AutowireAnnotate"/>
+   
+     <!-- <beans xml-ns = "http://www.springframework.org/schema/beans"
+   xmlns:xdtsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-4.0.xsd" > -->
+
+ 	<!-- <bean class = "org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/> -->
+ 	<!-- <context:annotation-config></context:annotation-config> -->     
+ 	<!-- <beans > -->
+     <!-- <bean id = "tyre2" class = "com.gunda.Magic.Tyre"  >
+     	<property name="brand" value = "hdh"></property>
+     </bean> --> 
+      
+     <!-- <bean id = "rangerover" class = "com.gunda.Magic.Car" />
+     <bean class = "org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+     	<property name = "staticMethod" value = "Car.setName"/>
+     	<property name="arguments" >
+     		<list>
+     			<value> audi </value>
+     		</list>
+     	</property>
+     </bean>	
+      -->
+     
+     <!-- <bean class = "org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+     		<property name = "staticMethod" value = "com.gunda.Magic.CarFactory.setClassName"/>
+     		<property name="arguments">
+     			<list>
+     				<value> com.gunda.Magic.Audi</value>
+     			</list>
+     		</property>
+     </bean> -->
+	<!-- 
+	Instance Factory Class
+	<bean id = "help" class = "com.gunda.Magic.CarFactory">
+		<property name="className" value = "com.gunda.Magic.Audi"></property>
+	</bean>
+	<bean id = "ca" factory-bean="help" factory-method = "getCar"/> 
+	-->
+<!-- 		<property name="model" value = "GLA410"/>
+ -->
+ 	<!-- <bean id = "bmw" class = "beans.Spring.Car" abstract = "true" >
+ 		<property name="model" >
+ 			<list>
+				<value > "BMW1" </value>
+				<value > "BMW2" </value>
+				<value > "BMW3" </value> 			
+ 			</list>
+ 		
+ 		</property> 		
+ 	</bean>
+
+ 	<bean id = "car" class = "beans.Spring.Car" scope = "prototype" parent = "bmw" autowire = "byName">
+ 	</bean> -->
+	
+	
+	<!-- <bean class = "org.springframework.context.annotation.CommonAnnotationBeanPostProcessor">
+	</bean>
+		
+	<bean id = "life" class = "beans.Spring.LifeCycleAnnotation"></bean> -->	
+	
+	
+	
+	
+	
+ 	<!-- <bean id = "ceattyre" class = "beans.Spring.Tyre" >
+ 		<property name="brand" value = "CEAT"></property>
+ 	</bean> -->
+ 	
+ 	
+ 	
+ 	
+			
+<!--  		<constructor-arg value = "Galardo007" /> -->
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--  Life cycle implementation code is below: -->
+	<!--      
+	<bean class = "org.springframework.context.annotation.CommonAnnotationBeanPostProcessor">
+	</bean>
+	
+    <bean id = "test" class = "com.gunda.beans.LifeCycleAnnotation" >
+    		
+    </bean> 
+     
+      -->
+     
+     
+     
+     <!-- <bean id = "audi" class = "com.gunda.Magic.Car"  autowire="byType"/>
+     <bean id = "bmw" class = "com.gunda.Magic.Car"  autowire="byType"/> 
+      -->
+     
+ 
+     <!--  
+     * autowire works perfectely fine here.
+     * works for only the secondary type data
+     * study about autowire attribute from javatpoint.
+     <bean id = "tyre1" class = "com.gunda.Magic.Tyre"  primary = "true">
+     		<property name="brand" value = "MRF"/>
+     </bean>
+     <bean id = "tyre2" class = "com.gunda.Magic.Tyre"  >
+     		<property name="brand" value = "Ceat"/>
+     </bean> 
+      
+     <bean id = "rangerover" class = "com.gunda.Magic.Car"  autowire="byType"/> -->
+     
+     <!--
+     	*autowire doesnt work here since the bean is not created upon getBean() method call
+     	
+      <bean id = "audi" class = "com.gunda.Magic.Car" autowire = "byType">
+     		<property name="tyre" ref = "tyre1"></property>
+     </bean>
+     <bean id = "rangerover" class = "com.gunda.Magic.Car"  parent = "audi"/>
+     
+      -->
+     
+      
+      		
+      
+      
+      
+      <!-- 
+      * abstract attribute makes the bean absract.
+      * abstract bean can't be instantianted.
+      * abstract bean is used for inheriting the bean. 
+      <bean id = "car" class = "com.gunda.Magic.Car" abstract = "true" >
+      		<property name="tyre">
+		      		<bean class = "com.gunda.Magic.Tyre"  >
+		     			<property name="brand" value = "Ceat"/>
+		     		</bean>
+			</property>      
+      </bean> -->
+      
+      
+      
+      
+  <!-- Schemas for Required collection class objects DI      
+      xmlns:context = "http://www.springframework.org/schema/context"
+     
+     http://www.springframework.org/schema/util 
+     http://www.springframework.org/schema/util/spring-util-4.0.xsd" -->
+     
+      <!-- <context:component-scan base-package="com.gunda.Magic"></context:component-scan> -->
+      
+      <!-- <bean id = "rangerover" class = "com.gunda.Magic.Car">
+      		<property name="users">
+      			<util:list list-class= "java.util.ArrayList">
+      					<value> shreedhar</value>
+      			</util:list>
+       		</property>
+      
+      </bean> -->
+      
+      
+      
+      
+      
+      
+      <!-- Properties datatype Dependency injection(DI)
+      <bean id = "rangerover" class = "com.gunda.Magic.Car">
+      		<property name="user">
+      			<props>
+      				<prop key="username">shreedhar</prop>
+					<prop key="password">gunda123</prop>
+					<prop key="username">Guru</prop>
+					<prop key="password">gunda123</prop>
+      			</props>
+      		</property>
+      </bean> -->
+
+<!--   Constructor DI with multiple arguments 
+   	<bean id = "rangerover" class = "com.gunda.Magic.Car" > 
+   		
+   		<constructor-arg value = "shreedhar" index = "2"/>
+   		<constructor-arg index = "1">
+   			<bean class =  " com.gunda.Magic.Tyre">
+   				<property name="brand" value= "MRF"/>
+   			</bean>
+   		</constructor-arg>
+   		<constructor-arg value = "22" index= "3"/>
+   		<constructor-arg value = "ses" index = "0"/>
+   		
+   	</bean>
+ -->      
+      
+      
+      
+      
+      <!-- 
+      
+      	Passing the dependency of type Secondary by creating the object in constructor-arg 
+      <bean id = "Lamborgini" class = "com.gunda.Magic.Car">
+      		<property name="tyre" >
+      		
+      			<bean class = "com.gunda.Magic.Tyre">
+      				<property name="brand" value = "CEAT"></property>
+      			</bean>
+      		
+      		</property>
+      </bean>
+      -->
+      <!--
+        Passing the dependency of type Secondary using reference
+        
+       <bean id = "Lamborgini" class = "com.gunda.Magic.Car">
+      		<property name="tyre" ref = "t"></property>
+      	</bean>
+      	<bean id = "t" class = "com.gunda.Magic.Tyre">
+      		<property name="brand" value="MRFFF"></property>
+      	</bean> 
+       --> 
+       
+      
+      
+      <!-- bean definitions go here -->
+</beans>      

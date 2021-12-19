@@ -1,0 +1,36 @@
+package lockdown;
+
+class Parent 
+{
+	 public void disp()
+	{
+		System.out.println("parent class method");
+	}
+	
+}
+
+class Child extends Parent 
+{
+
+	/*public Child(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}*/
+	 public void disp()
+	{
+		//super.disp();
+		System.out.println("child class method");
+	}
+	
+}
+
+class Important
+{
+	public static void main(String[] args ){
+		// TODO Auto-generated method stub
+		 Parent obj = new Child();
+		obj.disp();
+	}
+	
+	
+}

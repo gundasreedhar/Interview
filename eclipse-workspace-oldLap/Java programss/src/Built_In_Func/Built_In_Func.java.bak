@@ -1,0 +1,15 @@
+class  Built_In_Func
+{
+	public static void main(String [] args)
+	{
+		Str obj = new Str();
+			obj.disp();
+	}
+}
+public class Str
+{
+	public void disp()
+	{
+		System.out.println("jhdsgf"); 
+	}
+}

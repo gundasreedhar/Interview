@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Tue Nov 16 14:53:55 IST 2021
+org.eclipse.jst.jee.server\:DemoApp=C\:\\softwares\\apache-tomcat-9.0.54\\wtpwebapps\\DemoApp
+org.eclipse.jst.jee.server\:LoginModuleRevice=C\:\\softwares\\apache-tomcat-9.0.54\\wtpwebapps\\LoginModuleRevice
+org.eclipse.jst.jee.server\:LoginModule=C\:\\softwares\\apache-tomcat-9.0.54\\wtpwebapps\\LoginModule
+org.eclipse.jst.jee.server\:JSTLTest=C\:\\softwares\\apache-tomcat-9.0.54\\wtpwebapps\\JSTLTest

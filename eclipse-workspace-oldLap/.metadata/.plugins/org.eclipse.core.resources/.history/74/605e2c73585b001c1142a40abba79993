@@ -1,0 +1,24 @@
+package FilesPractice;
+
+import java.util.List;
+
+public class Java8practice {
+	public static void main(String[] args) {
+		List<Student> listOfStudents = StudentDAO.getAllStdeuntRecords();
+		
+		double sum = listOfStudents.stream()
+		.filter(employee -> employee.getGrade().equalsIgnoreCase("A"))
+		.map(employee->employee.getSalary())
+		.mapToDouble(i->i)
+		.sum();
+		
+		System.out.println("The sum salaries of grade A employees is : " + sum);
+	}
+	
+	double average = StudentDAO.getAllStdeuntRecords().stream()
+					.filter(employee->employee.getGrade().equalsIgonreCase("B"))
+					.map(emp->emp.getSalary())
+					.mapToDouble(i->i)
+					.average().getAsDouble();
+				
+}

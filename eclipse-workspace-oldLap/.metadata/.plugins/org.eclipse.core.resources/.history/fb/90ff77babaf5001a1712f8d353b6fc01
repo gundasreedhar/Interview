@@ -1,0 +1,10 @@
+
+public class CoreApp 
+{
+	public static void main(String[] args)
+	{
+		char a = 65;
+		if (a == 65)
+		System.out.println("true");
+	}
+}

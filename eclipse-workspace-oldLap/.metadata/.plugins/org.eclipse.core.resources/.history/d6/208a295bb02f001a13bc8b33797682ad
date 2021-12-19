@@ -1,0 +1,38 @@
+package Shreedhar;
+
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashSet;
+
+class Student {
+	String name = "";
+	int age;
+
+	public Student(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+
+	public Student() {
+		// TODO Auto-generated constructor stub
+	}
+
+	
+
+}
+
+public class First {
+	public static void main(String[] args) {
+		Student s1 = new Student("shreedhar", 21);
+		Student s2 = new Student("Guru", 20);
+		Set<Student> obj = new TreeSet();
+		obj.add(s1);
+		obj.add(s2);
+		obj.forEach( n -> System.out.println(n.name + "   " + n.age));
+		
+	}
+}
