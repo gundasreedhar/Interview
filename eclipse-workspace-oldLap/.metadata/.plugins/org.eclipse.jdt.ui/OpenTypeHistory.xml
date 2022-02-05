@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
+    <typeInfo handle="=BankServices/C:\/Program Files\/Java\/jdk-17\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util.function(Supplier.class[Supplier" modifiers="1537" timestamp="1634025360290"/>
+    <typeInfo handle="=BankServices/C:\/Program Files\/Java\/jdk-17\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(List.class[List" modifiers="1537" timestamp="1634025360290"/>
+    <typeInfo handle="=BankServices/C:\/Program Files\/Java\/jdk-17\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(HashSet.class[HashSet" modifiers="33" timestamp="1634025360290"/>
+    <typeInfo handle="=BankServices/C:\/Program Files\/Java\/jdk-17\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.io(ObjectOutputStream.class[ObjectOutputStream" modifiers="33" timestamp="1634025360290"/>
+    <typeInfo handle="=BankServices/C:\/Program Files\/Java\/jdk-17\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(Vector.class[Vector" modifiers="33" timestamp="1634025360290"/>
+    <typeInfo handle="=BankServices/C:\/Program Files\/Java\/jdk-17\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util.function(Consumer.class[Consumer" modifiers="1537" timestamp="1634025360290"/>
     <typeInfo handle="=BankServices/C:\/Program Files\/Java\/jdk-17\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(Comparator.class[Comparator" modifiers="1537" timestamp="1634025360290"/>
+    <typeInfo handle="=java8/src&lt;{CoreApp.java[Student" modifiers="0" timestamp="1643169394631"/>
+    <typeInfo handle="=BankServices/C:\/Program Files\/Java\/jdk-17\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util.function(Function.class[Function" modifiers="1537" timestamp="1634025360290"/>
+    <typeInfo handle="=BankServices/C:\/Program Files\/Java\/jdk-17\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(Collection.class[Collection" modifiers="1537" timestamp="1634025360290"/>
+    <typeInfo handle="=BankServices/C:\/Program Files\/Java\/jdk-17\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.lang(Iterable.class[Iterable" modifiers="1537" timestamp="1634025360290"/>
+    <typeInfo handle="=interview/src&lt;check{LinkedList.java[LinkedList" modifiers="1" timestamp="1640109208501"/>
+    <typeInfo handle="=BankServices/C:\/Program Files\/Java\/jdk-17\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(LinkedHashSet.class[LinkedHashSet" modifiers="33" timestamp="1634025360290"/>
+    <typeInfo handle="=BankServices/C:\/Program Files\/Java\/jdk-17\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(ArrayList.class[ArrayList" modifiers="33" timestamp="1634025360290"/>
+    <typeInfo handle="=BankServices/C:\/Program Files\/Java\/jdk-17\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(LinkedList.class[LinkedList" modifiers="33" timestamp="1634025360290"/>
+    <typeInfo handle="=BankServices/C:\/Program Files\/Java\/jdk-17\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.util(Hashtable.class[Hashtable" modifiers="33" timestamp="1634025360290"/>
 </typeInfoHistroy>

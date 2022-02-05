@@ -1,0 +1,21 @@
+Input Format :
+
+1)number of messages to be send by shan
+2)Messages separated by next line 
+
+Program can be executed from InputOutputProcesser which has main method.
+
+Example :
+
+3
+Air,“oaaawaala”
+Land,“a1d22n333a4444p”
+Ice,“zmzmzmzaztzozh” 
+
+
+5
+Air,“Let’s swing the sword together”
+Land,“Die or play the tame of thrones”
+Ice,“Ahoy! Fight for me with men and money”
+Water,“Summer is coming”
+Fire,“Drag on Martin!” 

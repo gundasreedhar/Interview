@@ -14,9 +14,9 @@ Types of Inner classes:-
  * Anonymous function is nameless function.
  * syntax: ( )     ->      {}                          //parameter expression body
  * First-of-all Lambda Expression is NOT A INNER-CLASS.
-     Since, upon compiling, the inner class file is not created.
+     Since, upon compiling, the inner class's .class file is not created.
  * Introduced in java 8 
- * Lambda expressions allow you to create the function that does not belong to any class and pass them as 
+ * Lambda expressions allow you to create the function that does not belong to any class and pass functionality as 
 	an argument to the method and is executed on demand.
  * Used for implementing the functional interface only.
 		-fun_interface is a interface with ONLY-ONE abstract method in it and can contain any number of default methods and static methods.

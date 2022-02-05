@@ -18,8 +18,8 @@ Types of Inner classes:-
  * They are like Local Class only but they dont have a name to it.
   
  * wrt CONCRETE CLASS this Anonymous_inner_class allow us to OVERRIDE the method, CAN'T ADD NEW method that is not present in the concrete class
-   and (data member to that object ONLY)--> doubt .
-	And this DOES NOT AFFECT the original members of class upon other object creation.
+   and can have data member to that object ONLY.
+	And this DOES NOT AFFECT the original blueprint of class upon other object creation.
 	  
  * wrt INTERFACES AND ABSTRACT CLASS if we want to use that class for only once then we go with 
    using anonymous class to implement interfaces or abstract classes instead, of creating a SEPERATE
@@ -27,17 +27,19 @@ Types of Inner classes:-
    	here u can create the new fields and methods aswell.
    
    Anonymous inner class CAN HAVE following:
-     1. Fields
-     2. Extra methods (even if they do not implement any methods of the supertype)  // specialized method
-	 3. Instance initializers.  // non-static block
-	 4. local classes
-	 5. static members that are having constant values. i.e., static final variables
+   	 1. static members that are having constant values. i.e., static final variables allowed
+     2. non static Fields (specialized var also allowed)
+     3. can over ride the parent methods 
+	 4. Instance initializers.  // non-static block
+	 5. non static nested classes
+	 
 	 
    Anonymous inner class CAN'T HAVE following:
+   	 - non-final static data members
      - static initializers.  // static blocks
      - static methods
-     - non-final static data members
      - member interfaces
+     - can't have specialized methods for that inner class
 	
 	
 	Go with this only when u have more than one method in parent class or interface to implement.
@@ -110,6 +112,7 @@ package innerclasses;
 			 }
 			int num = 100;
 		 };
+		 
 		 obj1.show();
 		 obj2.show_inter();
 		 
@@ -118,6 +121,22 @@ package innerclasses;
 			 		void go() {System.out.println("going");}
 				 };
 				 kk.go();
+				 
+				 Has obj3 = new Has()
+				 {
+					public void disp()
+					{
+						System.out.println("second" + num);
+					}
+//					public void another()
+//					{
+//						System.out.println("specialized method" + num);
+//					}
+					private int num = 9;
+				 };
+				 
+				 obj3.disp();
+				 //obj3.another();
 		 
 	 }
 
@@ -126,5 +145,13 @@ package innerclasses;
 		
 	}
  } 
+ 
+ class Has
+ {
+	 public void disp()
+	 {
+		 System.out.println("first");
+	 }
+ }
  
  

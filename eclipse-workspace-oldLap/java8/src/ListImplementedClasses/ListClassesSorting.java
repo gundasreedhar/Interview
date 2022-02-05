@@ -103,6 +103,15 @@ public class ListClassesSorting {
 		
 		
 		// from java 1.8 sorting
+		// this sorts the original list object itself -> BEST
+		Collections.sort(studentList,(o1,o2) -> o1.getUsn() - o2.getUsn());
+		System.out.println("------------");
+		studentList.forEach(System.out::println);
+		System.out.println("------------");
+		
+		
+		
+		// IF U USE THE STREAmS here then it requires one more AL object.
 		List<Student> modifiedList = new ArrayList<Student>();
 		//modifiedList = studentList.stream().sorted(compFname).collect(Collectors.toList());
 		modifiedList = studentList.stream()

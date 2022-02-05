@@ -15,6 +15,4 @@ public class Deposite {
 	public void setAmount(double amount) {
 		this.amount = amount;
 	}
-	
-	
 }

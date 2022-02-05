@@ -1,5 +1,6 @@
 #Tomcat publish data
-#Tue Nov 16 14:53:55 IST 2021
+#Sun Jan 23 22:09:14 IST 2022
+org.eclipse.jst.jee.server\:LoginModuleRevice2=C\:\\softwares\\apache-tomcat-9.0.54\\wtpwebapps\\LoginModuleRevice2
 org.eclipse.jst.jee.server\:DemoApp=C\:\\softwares\\apache-tomcat-9.0.54\\wtpwebapps\\DemoApp
 org.eclipse.jst.jee.server\:LoginModuleRevice=C\:\\softwares\\apache-tomcat-9.0.54\\wtpwebapps\\LoginModuleRevice
 org.eclipse.jst.jee.server\:LoginModule=C\:\\softwares\\apache-tomcat-9.0.54\\wtpwebapps\\LoginModule
