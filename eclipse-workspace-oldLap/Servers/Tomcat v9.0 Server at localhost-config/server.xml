@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="DemoApp" path="/DemoApp" reloadable="true" source="org.eclipse.jst.jee.server:DemoApp"/><Context docBase="JSTLTest" path="/JSTLTest" reloadable="true" source="org.eclipse.jst.jee.server:JSTLTest"/><Context docBase="LoginModule" path="/LoginModule" reloadable="true" source="org.eclipse.jst.jee.server:LoginModule"/><Context docBase="LoginModuleRevice" path="/LoginModuleRevice" reloadable="true" source="org.eclipse.jst.jee.server:LoginModuleRevice"/></Host>
+      <Context docBase="DemoApp" path="/DemoApp" reloadable="true" source="org.eclipse.jst.jee.server:DemoApp"/><Context docBase="JSTLTest" path="/JSTLTest" reloadable="true" source="org.eclipse.jst.jee.server:JSTLTest"/><Context docBase="LoginModule" path="/LoginModule" reloadable="true" source="org.eclipse.jst.jee.server:LoginModule"/><Context docBase="LoginModuleRevice" path="/LoginModuleRevice" reloadable="true" source="org.eclipse.jst.jee.server:LoginModuleRevice"/><Context docBase="LoginModuleRevice2" path="/LoginModuleRevice2" reloadable="true" source="org.eclipse.jst.jee.server:LoginModuleRevice2"/></Host>
     </Engine>
   </Service>
 </Server>

@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Login page</title>
 </head>
 <body>
 	<form action="login" method = "post">
-	Enter username : <input type = "text" name = "uname"><br>
-	Enter password : <input type = "password" name = "password"><br>
-	<input type = "submit" value = "login">
+		Enter username : <input type = "text" name = "uname"><br>
+		Enter password : <input type = "password" name = "password"><br>
+		<input type = "submit" value = "login">
 	</form>
 </body>
 </html>

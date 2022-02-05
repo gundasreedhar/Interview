@@ -22,31 +22,42 @@ Types of Inner classes:-
  *
  * Method can access the class members upon creating its object, as shown below.
  * 
- * Outside the method we cant access the inner class present in the method.
+ * Outside the method we can't access the inner class present in the method.
  */
 package innerclasses;
 class OuterML 
 {
 	int num = 10;
+	int a = 2222;
+	int b = 3333;
 	public void show() 
 	//static public void show() 
 	{
-		int a = 20;
-		// cant create the obejct of inner class here
+		int a = 200;
+		int b = 300; // no idea how to use these if var name is same here  // if different var name we can use it directly
+		// cant create the object of inner class here
 		class Inner
 		{
-			public void disp()
+			int a = 20;
+			int b = 30;
+			public void disp(int a , int b)
 		    {
-				System.out.println("Hello World! " + num );  // access outer class members
-				System.out.println("Hello World! " + a );  // access method's data
+				//System.out.println("Hello World! " + num );  // access outer class members
+				//System.out.println("Hello World! " + a );  // access method's data
+				
+				System.out.println(a + "\n" + b);
+				System.out.println(this.a + "\n" + this.b);
+				System.out.println(OuterML.this.a + "\n" + OuterML.this.b);
+				
 			}
 		}
 		// Accessing the inner class members.
 		// can create the object of inner class here
 		// can write after the class only. you cant write before the class declartion
 		Inner o = new Inner();  
-		o.disp();   
+		o.disp(2,3);   
 	}
+	//Inner o = new Inner();  // can;t have the instance of method local inner class outside the method
 	
 	
 	

@@ -42,7 +42,7 @@ class Workers
 }
 public class NullExceptionRemoval {
 	public static void main(String[] args)
-	{
+	{	
 		Workers s1 = new Workers(1,"shreedhar");
 		Workers s2 = new Workers(2,null);
 		

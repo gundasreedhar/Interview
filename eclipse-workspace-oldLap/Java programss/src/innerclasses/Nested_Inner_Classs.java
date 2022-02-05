@@ -28,7 +28,7 @@ Types of Inner classes:-
  * This non-static inner class WILL HAVE THE REFERENCE to the outer class so,
  * the inner class can HAVE ACCESS to all the members of outer class including private members directly without creating the object.
  * 
- * Any outer class method can create the object of the any(be it static or non static) inner class inside the method.
+ * Any outer class method can create the object of any(be it static or non static) inner class inside the class.
 
  * An outer class can have all the member of normal class.
  * 
@@ -36,10 +36,10 @@ Types of Inner classes:-
  * also implement an interface as well.
  *
  * A NESTED INNER CLASS means a CLASS CONTAINING NON-STATIC CLASS INSIDE IT.
- * But, 
+ * AND, 
  * we can have 'N' number of non-static and static classes inside a class.
  * but, static inner class can access ONLY static members of outer class.
- * where as, NON-static inner class can have access to both static and non-static members of outer class including private fields.
+ * where as, NON-static inner class can have access to both static and non-static members of outer class including private members of outer class.
  *
  * You can have the static method in the outer class and can be accecced directely using its name in the inner class.
  *

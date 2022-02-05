@@ -14,7 +14,7 @@ public class MapReduceExample {
         List<Integer> numbers = Arrays.asList(3, 7, 8, 1, 5, 16);
 
         List<String> words = Arrays.asList("corejava", "spring", "hibernate");
-        words.stream().forEach(null);
+        //words.stream().forEach(null);
         
         int sum = 0;
         for (int i : numbers)
@@ -34,7 +34,7 @@ public class MapReduceExample {
         System.out.println("Avarage : " + numbers.stream().mapToDouble(i->i).average().getAsDouble());
         System.out.println("------------------------------------------------");
         
-        System.out.println("min : " + numbers.stream().mapToInt(i->i).min().getAsInt());
+        System.out.println("min : " + numbers.stream().mapToDouble(i->i).min().getAsDouble());
         System.out.println("min : " + numbers.stream().min((a,b)->a.compareTo(b)).get());  // FIRST sorts and gets the first value
         //here min() returns the first element from the sorted list 
         System.out.println("------------------------------------------------");
@@ -46,9 +46,11 @@ public class MapReduceExample {
 
         // write sorting
         // need to write the sortings
-        
-        String lowLength = words.stream().min( (a,b)-> a.length()<b.length()?-1 : 1)
-        		.get(); 
+        /*
+        compare(obj1,obj2)  -> -ve	obj1 before obj2
+        compare(obj1,obj2)  -> +ve	obj1 after obj2
+        */
+        String lowLength = words.stream().min( (a,b)-> a.length()-b.length()).get(); 
         System.out.println("The lowest length word : " + lowLength);
         
         String highLength = words.stream().max((a,b)-> a.length()<b.length()?-1 : 1).get();

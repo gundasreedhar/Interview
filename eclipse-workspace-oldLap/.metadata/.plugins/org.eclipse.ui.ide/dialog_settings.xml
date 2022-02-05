@@ -4,17 +4,15 @@
 		<item value="C:\Users\Sridhar-ACPC\Desktop\java programs"/>
 	</list>
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory"/>
-			<item value="org.eclipse.jdt.ui.java"/>
-			<item value="org.eclipse.jst.j2ee.internal"/>
+			<item value="org.eclipse.wst.web.ui"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
 		<item key="FilterByLocation" value="false"/>
 		<item key="ShowStatusLine" value="true"/>
-		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/Servers&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/java8/src/java8practice/CalculatorimplUsingLambda.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/FirstProject/src/Student.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/interview/src/interview/NonStaticBlockExecutionFlow.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/java8/src/mapSortingUsingLambda/MapSortingUsingLambda.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/interview/src/interview/RemoveDuplicates.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/Servers&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/java8/src/java8practice/CalculatorimplUsingLambda.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/java8/src/mapSortingUsingLambda/MapSortingUsingLambda.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/interview/src/interview/RemoveDuplicates.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/interview/src/interview/NumberOfDigitsInString.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/FirstProject/src/Student.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/FirstProject/src/Shreedhar/Student.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
 		<item key="WorkingSet" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;"/>
 		<item key="ShowDerived" value="false"/>
 		<section name="DialogBoundsSettings">
@@ -46,6 +44,10 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Gunda Sreedhar\ecliplse workspace in old lap\eclipse-workspace-oldLap\designPatterns"/>
+			<item value="C:\Users\Gunda Sreedhar\ecliplse workspace in old lap\eclipse-workspace-oldLap\design-patterns-master"/>
+			<item value="C:\Users\Gunda Sreedhar\ecliplse workspace in old lap\eclipse-workspace-oldLap\Srinivas friend work"/>
+			<item value="C:\spring security\spring-security-jwt-example-master"/>
 			<item value="C:\Users\Gunda Sreedhar\ecliplse workspace in old lap\eclipse-workspace-oldLap\company\my project\gunda"/>
 			<item value="C:\Users\Gunda Sreedhar\ecliplse workspace in old lap\eclipse-workspace-oldLap\git-demo"/>
 		</list>

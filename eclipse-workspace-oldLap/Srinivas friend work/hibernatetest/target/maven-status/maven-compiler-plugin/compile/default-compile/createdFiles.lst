@@ -1,0 +1,3 @@
+hibernate_test\hibernatetest\AppMain.class
+com\hibernate\entities\CustomerDetails.class
+hibernate_test\hibernatetest\HibernateUtil.class

@@ -6,22 +6,21 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="anno"/>
+		<item key="selection" value=""/>
 		<item key="casesensitive" value="true"/>
 		<item key="incremental" value="false"/>
 		<item key="wrap" value="true"/>
 		<item key="wholeword" value="false"/>
 		<list key="findhistory">
-			<item value="anno"/>
-			<item value="`"/>
-			<item value="A"/>
-			<item value="Check"/>
-			<item value="map.entrySet().stream().sorted((a,b) -&gt; a.getValue().compareTo(b.getValue())).forEach(System.out::println);"/>
-			<item value="ResourceBundle"/>
-			<item value="put"/>
-			<item value="compareVersion"/>
-			<item value="class Studentt"/>
-			<item value="launch"/>
+			<item value="singl"/>
+			<item value="writeObjectOverride"/>
+			<item value="enableOverride"/>
+			<item value="show"/>
+			<item value="thorsu"/>
+			<item value="lengthOfLongestSubstring"/>
+			<item value="Vidyarthii"/>
+			<item value="sumOfDigits"/>
+			<item value="toString"/>
 		</list>
 		<list key="replacehistory">
 			<item value="Iterator"/>
